@@ -284,3 +284,7 @@ body{
     line-height: normal;
     }
     
+
+    .a {
+        display: flex;
+    }
