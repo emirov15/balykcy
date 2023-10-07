@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(write/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Krone One;
+    src: url(fonts/KronaOne-Regular.ttf);
+}
+
+.wrap{
+    width:  2400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.hero{
+    background-size: cover;
+    height: 1220px;
+    width: 2000px;
+    background-repeat: repeat;
+    background-image: url(file:///home/user/pavel-fertikh-R1Wy2m3oFqQ-unsplash%201.jpg);
+}
+
+.header{
+    padding-top: 69px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.none{
+    width: 100px;
+    visibility: hidden;
+    height: 10px;
+}
+
+.head-title{
+    color: #151515;
+    font-size: 24px;
+    font-family: Krone One;
+    font-weight: 400;  
+}
+
+.svg-head{
+    margin-right: 100px;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+    align-items: center;
+    margin-top: 217px;
+}
+.wrap-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Krone One;
+    font-size: 96px;
+    font-weight: 400;
+    max-width: 1132px;
+    text-transform: uppercase;
+}
+
+.btn{
+    width: 236px;
+    color: #fdf9f9;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    height: 44px;
+    font-family: Poppins;
+    background: transparent;
+    border: 3px solid #FFF;
+}
+
+.sub-svg{
+    width: 200px;
+    height: 150px;
+    display: flex;
+}
+
+.sub-svg{
+    margin: 305px auto;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-info{
+    width: 1150px;
+    height: 1081px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+    background-image: url(imag/pavel-fertikh-R1Wy2m3oFqQ-unsplash\ 1.jpg);
+}
+.about-title{
+    color: #151515;
+    font-size: 48px;
+    font-family: Krone One;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about-txt{
+    color: #151515;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    max-width: 680px;
+}
+
+.about-img img{
+    width: 1150px;
+    height: 1081px;
+}
+
+.gallery{
+    width: 2300px;
+    height: 2032px;
+    background: #181818;
+}
+
+.gallery-title{
+    color: #FFF;
+    font-family: Krone One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 126px;
+    padding-top: 118px;
+    margin-bottom: 118px;
+}
+
+.angry-grid {
+    display: grid;
+    grid-template-columns: 772px 746px 752px;
+    grid-template-rows: 511px 579px 460px;
+    object-fit: cover;
+    gap: 10px;
+}
+
+.angry-grid img{
+    width: 100%;
+    height: 100%;
+}
+
+#item-5{
+    grid-column: 2/4;
+}
+
+.log-in{
+    width: 2300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-in h5{
+    margin-top: 149px;
+    color: #151515;
+    font-family: Krone One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.inputs{
+    margin-top: 97px;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-input{
+    border: 1px solid #DCF7FF;
+    background: #FFF;
+    width: 597px;
+    height: 56px;
+}
+
+.last-input{
+    border: 1px solid #DCF7FF;
+    background: #FFF;
+    width: 597px;
+    height: 195px;
+}
+
+.inputs input::placeholder{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.log-in button{
+    width: 236px;
+    height: 44px;
+    flex-shrink: 0;
+    border: 3px solid #151515;
+    background-color: transparent;
+    color: #151515;
+    text-align: center;
+    margin-top: 53px;
+    font-family: Krone One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 140px;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+    .footer{
+        width: 2300px;
+        height: 264px;
+        background-color: #181818;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .tel{
+        background-image: url(imag/pavel-fertikh-R1Wy2m3oFqQ-unsplash\ 1.jpg);
+        font-family: Krone One;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .title-footer{
+        color: #FFF;
+        font-family: Krone One;
+        font-size: 24px;
+        font-style: normal;
+        text-transform: uppercase;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .icons svg{
+        width: 42px;
+        height: 30px;
+        flex-shrink: 0;
+    }
+
+    .paragraph {
+    color: #FFF;
+    font-family: Krona One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
